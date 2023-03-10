@@ -1,4 +1,5 @@
 ﻿using Carcasonne_game_server.Classes.Features;
+using Carcasonne_game_server.Classes.ParsedJson;
 
 namespace Carcasonne_game_server.Classes
 {
@@ -19,6 +20,56 @@ namespace Carcasonne_game_server.Classes
             Left = left;
             Right = right;
             Center = center;
+        }
+
+        public Tile(ParsedTile tile)
+        {
+            Id = tile.id;
+            Top = DecideFeatureType(tile.top);
+            Right = DecideFeatureType(tile.right);
+            Bottom = DecideFeatureType(tile.bottom);
+            Left = DecideFeatureType(tile.left);
+            Center = DecideFeatureType(tile.center);
+        }
+
+        private Feature DecideFeatureType(ParsedFeature feature)
+        {
+            List<Feature> _connectsTo = new();
+
+            foreach (string place in feature.connectsTo)
+            {
+                switch (place)
+                {
+                    case "top":
+                        _connectsTo.Add(Top);
+                        break;
+                    case "bottom":
+                        _connectsTo.Add(Bottom);
+                        break;
+                    case "left":
+                        _connectsTo.Add(Left);
+                        break;
+                    case "right":
+                        _connectsTo.Add(Right);
+                        break;
+                    case "center":
+                        _connectsTo.Add(Center);
+                        break;
+                }
+            }
+
+            switch (feature.type)
+            {
+                case "city":
+                    return new CityFeature(_connectsTo.ToArray(), feature.bonusPoints);
+                case "monastery":
+                    return new MonasteryFeature(_connectsTo.ToArray(), feature.bonusPoints);
+                case "field":
+                    return new FieldFeature(_connectsTo.ToArray(), feature.bonusPoints);
+                case "road":
+                    return new RoadFeature(_connectsTo.ToArray(), feature.bonusPoints);
+                default: return null;
+            }
         }
 
         public bool CanBePlaced(Tile top, Tile right, Tile bottom, Tile left)

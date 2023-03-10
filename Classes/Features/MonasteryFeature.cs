@@ -2,7 +2,7 @@
 {
     public class MonasteryFeature : Feature
     {
-
+        public override string Type => "monastery";
         public MonasteryFeature(Feature[] connectsTo, BonusPoints bonusPoints) : base(connectsTo, bonusPoints) { }
 
 

@@ -1,0 +1,2018 @@
+[
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["bottom", "left", "right", "top"]
+		},
+		"id": "BASE_C[C]C[C]C[C]C[C]C(S)[BLRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right", "top"]
+		},
+		"id": "BASE_C[C]C[C]FC[C]C[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right", "top"]
+		},
+		"id": "BASE_C[C]C[C]FC[C]C[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right", "top"]
+		},
+		"id": "BASE_C[C]C[C]FC[C]C[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["right", "left", "top"]
+		},
+		"id": "BASE_C[C]C[C]FC[C]C(S)[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["right", "left", "top"]
+		},
+		"id": "BASE_C[C]C[C]RC[C]C(S)[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["right", "left", "top"]
+		},
+		"id": "BASE_C[C]C[C]RC[C]C(S)[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left", "top"]
+		},
+		"id": "BASE_C[C]C[C]RC[C]C[LRT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_C[L]F[C]F[C]C[T]F[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_C[L]F[C]F[C]C[T]F[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_C[L]F[C]F[C]C[T]F[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_C(S)[L]F[C]F[C]C[T]F[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_C(S)[L]F[C]F[C]C[T]F[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_CF[C]F[C]CF[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_CF[C]F[C]CF[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_C[L]R[C]R[R]C[T]F"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_C[L]R[C]R[R]C[T]F"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_C[L]R[C]R[R]C[T]F"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_C(S)[L]R[C]R[R]C[T]F"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"left": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["top"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_C(S)[L]R[C]R[R]C[T]F"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right"]
+		},
+		"id": "BASE_CF[C]CF[C]F[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right"]
+		},
+		"id": "BASE_CF[C]CF[C]F[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right"]
+		},
+		"id": "BASE_CF[C]CF[C]F[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["bottom", "top"]
+		},
+		"id": "BASE_C[C]FC[C]FC(S)[BT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": true, "tavern": false },
+			"connectsTo": ["bottom", "top"]
+		},
+		"id": "BASE_C[C]FC[C]FC(S)[BT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "top"]
+		},
+		"id": "BASE_C[C]FC[C]FC[BT]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "right", "left"]
+		},
+		"id": "BASE_CF[C]F[C]F[C]F[BLR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "right", "left"]
+		},
+		"id": "BASE_CF[C]F[C]F[C]F[BLR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "right", "left"]
+		},
+		"id": "BASE_CF[C]F[C]F[C]F[BLR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "right", "left"]
+		},
+		"id": "BASE_CF[C]F[C]F[C]F[BLR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom", "right", "left"]
+		},
+		"id": "BASE_CF[C]F[C]F[C]F[BLR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"id": "BASE_CF[C]R[L]R[B]F[R]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"id": "BASE_CF[C]R[L]R[B]F[R]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right"]
+		},
+		"id": "BASE_CF[C]R[L]R[B]F[R]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_CR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_CR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_CR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_CR[C]R[C]FR[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_CR[C]R[C]FR[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "bottom"]
+		},
+		"id": "BASE_CR[C]R[C]FR[BR]"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_CRRRF"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_CRRRF"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_CRRRF"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFFFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFFFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFFFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFFFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFRFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "monastery",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFRFM"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left"]
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["bottom"]
+		},
+		"center": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FFR[L]R[B]F"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["right", "left"]
+		},
+		"id": "BASE_FR[C]FR[C]R[LR]"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FRRRR"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FRRRR"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FRRRR"
+	},
+	{
+		"top": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_FRRRR"
+	},
+	{
+		"top": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"bottom": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"id": "BASE_RRRRR"
+	},
+	{
+		"top": {
+			"type": "city",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"right": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"bottom": {
+			"type": "field",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": []
+		},
+		"left": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["center"]
+		},
+		"center": {
+			"type": "road",
+			"bonusPoints": { "lake": false, "shield": false, "tavern": false },
+			"connectsTo": ["left", "right"]
+		},
+		"id": "START_CR[C]FR[C]R[LR]"
+	}
+]

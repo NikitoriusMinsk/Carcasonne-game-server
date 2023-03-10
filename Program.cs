@@ -9,6 +9,17 @@ namespace Carcasonne_game_server
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:3000")
+                            .AllowAnyHeader()
+                            .WithMethods("GET", "POST")
+                            .AllowCredentials();
+                    });
+            });
 
             builder.Services.AddControllers();
             builder.Services.AddSignalR();
@@ -19,6 +30,7 @@ namespace Carcasonne_game_server
 
             app.UseAuthorization();
 
+            app.UseCors();
             app.MapControllers();
             app.MapHub<GameHub>("/hubs/game");
 

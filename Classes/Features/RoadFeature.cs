@@ -2,6 +2,7 @@
 {
     public class RoadFeature : Feature
     {
+        public override string Type => "road";
         public RoadFeature(Feature[] connectsTo, BonusPoints bonusPoints) : base(connectsTo, bonusPoints) { }
 
 

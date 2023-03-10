@@ -2,7 +2,7 @@
 {
     public class FieldFeature : Feature
     {
-
+        public override string Type => "field";
         public FieldFeature(Feature[] connectsTo, BonusPoints bonusPoints) : base(connectsTo, bonusPoints) { }
 
 
