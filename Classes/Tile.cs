@@ -20,5 +20,50 @@ namespace Carcasonne_game_server.Classes
             Right = right;
             Center = center;
         }
+
+        public bool CanBePlaced(Tile top, Tile right, Tile bottom, Tile left)
+        {
+            bool topCompatible = top is null || top.Bottom == Top;
+            bool rightCompatible = right is null || right.Left == Right;
+            bool bottomCompatible = bottom is null || bottom.Top == Bottom;
+            bool leftCompatible = left is null || left.Right == Left;
+
+            return topCompatible && rightCompatible && bottomCompatible && leftCompatible;
+        }
+
+        public Feature this[TilePlaces place]
+        {
+            get
+            {
+                switch (place)
+                {
+                    case TilePlaces.Left:
+                        return Left;
+                    case TilePlaces.Right:
+                        return Right;
+                    case TilePlaces.Top:
+                        return Top;
+                    case TilePlaces.Bottom:
+                        return Bottom;
+                    case TilePlaces.Center:
+                        return Center;
+                    default: return null;
+                }
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"\t | {Top} | \t\n{Left} | {Center} | {Right}\n\t | {Bottom} | \t";
+        }
+    }
+
+    public enum TilePlaces
+    {
+        Top,
+        Bottom,
+        Left,
+        Right,
+        Center
     }
 }
