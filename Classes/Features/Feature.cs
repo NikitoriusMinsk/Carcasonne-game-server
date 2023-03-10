@@ -1,4 +1,6 @@
-﻿namespace Carcasonne_game_server.Classes.Features
+﻿using Carcasonne_game_server.Classes.Meeples;
+
+namespace Carcasonne_game_server.Classes.Features
 {
     public abstract class Feature
     {

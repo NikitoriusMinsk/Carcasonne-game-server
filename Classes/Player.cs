@@ -1,4 +1,6 @@
-﻿namespace Carcasonne_game_server.Classes
+﻿using Carcasonne_game_server.Classes.Meeples;
+
+namespace Carcasonne_game_server.Classes
 {
     public class Player
     {

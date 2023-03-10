@@ -1,4 +1,4 @@
-﻿namespace Carcasonne_game_server.Classes
+﻿namespace Carcasonne_game_server.Classes.Meeples
 {
     public abstract class Meeple
     {
