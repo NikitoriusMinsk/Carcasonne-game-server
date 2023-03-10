@@ -28,8 +28,9 @@ namespace Carcasonne_game_server.Classes
             List<ParsedTile> parsedTiles = await JsonFileReader.ReadFileAsync<List<ParsedTile>>("./TileLists/Carcasonne_Tiles_v1.json");
             foreach (ParsedTile tile in parsedTiles)
             {
-                await Console.Out.WriteLineAsync($"id: {tile.id}");
-                //result.Add(new Tile(tile));
+                Tile _tile = new(tile);
+                result.Add(new Tile(tile));
+                await Console.Out.WriteLineAsync(_tile.ToString());
             }
 
             return result.ToArray();

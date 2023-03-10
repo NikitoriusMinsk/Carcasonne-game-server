@@ -51,6 +51,10 @@ namespace Carcasonne_game_server.Classes.Features
             return a.Type != b.Type;
         }
 
+        public override string ToString()
+        {
+            return $"{Char.ToUpper(Type[0])}";
+        }
     }
 
 }

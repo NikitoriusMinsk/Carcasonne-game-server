@@ -105,7 +105,7 @@ namespace Carcasonne_game_server.Classes
 
         public override string ToString()
         {
-            return $"\t | {Top} | \t\n{Left} | {Center} | {Right}\n\t | {Bottom} | \t";
+            return $"{Id}\n  | {Top} |  \n---------\n{Left} | {Center} | {Right}\n---------\n  | {Bottom} |  \n";
         }
     }
 
