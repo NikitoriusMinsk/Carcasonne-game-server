@@ -4,13 +4,13 @@ namespace Carcasonne_game_server.Classes
 {
     public class Player
     {
-        public int Id { get; }
+        public string Id { get; }
         public string Name { get; }
         public Meeple[] Meeples { get; set; }
 
         public int Score { get; set; }
 
-        public Player(int id, string name)
+        public Player(string id, string name)
         {
             Id = id;
             Name = name;
