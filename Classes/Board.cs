@@ -24,8 +24,9 @@ namespace Carcasonne_game_server.Classes
             }
         }
 
-        public Tile[,] PlaceTile(Tile tile, Point pos)
+        public Tile[,] PlaceTile(Tile tile, Point pos, int rotation)
         {
+            //TODO: rotate the tile before placement
             Tiles[pos.X, pos.Y] = tile;
 
             return Tiles;

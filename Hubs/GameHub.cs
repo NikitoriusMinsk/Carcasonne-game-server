@@ -1,8 +1,25 @@
 ﻿using Carcasonne_game_server.Classes;
 using Microsoft.AspNetCore.SignalR;
+using System.Drawing;
 
 namespace Carcasonne_game_server.Hubs
 {
+
+    /*
+        --- List of hub events ---
+        Server-sent:
+            RoomsUpdated
+            PlayerLeftRoom
+            TileDrawn
+            TilePlaced
+        Client-sent:
+            CreateRoom
+            DeleteRoom
+            JoinRoom
+            LeaveRoom
+            StartGame
+            PlaceTile
+     */
     public class GameHub : Hub
     {
         private static List<GameRoom> Rooms { get; } = new List<GameRoom>();
@@ -25,35 +42,74 @@ namespace Carcasonne_game_server.Hubs
             return base.OnDisconnectedAsync(exception);
         }
 
-        public async Task CreateRoom(string roomName)
+        public async Task<string[]> CreateRoom(string roomName, string playerName)
         {
-            Rooms.Add(new GameRoom(roomName, new Player(Context.ConnectionId, Context.User.Identity.Name)));
+            if (Rooms.Where(room => room.Name == roomName).Any())
+            {
+                return Rooms.Select(room => room.Name).ToArray();
+            }
+
+            Rooms.Add(new GameRoom(roomName, new Player(Context.ConnectionId, playerName)));
             await Groups.AddToGroupAsync(Context.ConnectionId, roomName);
             Logger.LogInformation($"Room {roomName} created");
-            await Clients.All.SendAsync("RoomsUpdated", Rooms.Select(room => room.Name).ToArray());
+            await Clients.AllExcept(Context.ConnectionId).SendAsync("RoomsUpdated", Rooms.Select(room => room.Name).ToArray());
+            return Rooms.Select(room => room.Name).ToArray();
         }
 
-        public async Task DeleteRoom(string roomName)
+        public async Task<string[]> DeleteRoom(string roomName)
         {
             GameRoom roomToDelete = Rooms.Where(room => room.Name == roomName).First();
             roomToDelete.Players.ForEach(player => Groups.RemoveFromGroupAsync(player.Id, roomName));
             Rooms.Remove(roomToDelete);
-            await Clients.All.SendAsync("RoomsUpdated", Rooms.Select(room => room.Name).ToArray());
+            await Clients.AllExcept(Context.ConnectionId).SendAsync("RoomsUpdated", Rooms.Select(room => room.Name).ToArray());
+            return Rooms.Select(room => room.Name).ToArray();
         }
 
-        public async Task JoinRoom(string roomName)
+        public async Task<RoomInfo> JoinRoom(string roomName, string playerName)
         {
-            Rooms.Where(room => room.Name == roomName).First().Players.Add(new Player(Context.ConnectionId, Context.User.Identity.Name));
+            GameRoom room = Rooms.Where(room => room.Name == roomName).First();
+            room.Players.Add(new Player(Context.ConnectionId, playerName));
             await Groups.AddToGroupAsync(Context.ConnectionId, roomName);
             Logger.LogInformation($"User {Context.ConnectionId} joined room {roomName}");
+            return new RoomInfo(room.Name, room.Players.Select(player => player.Name).ToArray());
         }
 
         public async Task LeaveRoom(string roomName)
         {
-            Rooms.Where(room => room.Name == roomName).First().Players.RemoveAll(player => player.Id == Context.ConnectionId);
+            GameRoom room = Rooms.Where(room => room.Name == roomName).First();
+            room.Players.RemoveAll(player => player.Id == Context.ConnectionId);
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, roomName);
             Logger.LogInformation($"User {Context.ConnectionId} left room {roomName}");
+            // Send a message to the room to notify other room members
+            await Clients.Group(roomName).SendAsync("PlayerLeftRoom", new RoomInfo(room.Name, room.Players.Select(player => player.Name).ToArray()));
         }
 
+        public async Task StartGame()
+        {
+            GameRoom room = Rooms.Where(room => room.Players.Any(player => player.Id == Context.ConnectionId)).First();
+            room.StartGame();
+            await Clients.Client(room.Players[room.CurrentPlayer].Id).SendAsync("TileDrawn", room.TilePool[0].Id);
+        }
+
+        public async Task PlaceTile(string id, int row, int column, int rotation)
+        {
+            GameRoom room = Rooms.Where(room => room.Players.Any(player => player.Id == Context.ConnectionId)).First();
+            room.PlaceTile(id, new Point(row, column), rotation);
+            await Clients.Group(room.Name).SendAsync("TilePlaced", id, row, column);
+            room.NextPlayer();
+            await Clients.Client(room.Players[room.CurrentPlayer].Id).SendAsync("TileDrawn", room.TilePool[0].Id);
+        }
+    }
+
+    public class RoomInfo
+    {
+        public string Name { get; set; }
+        public string[] Players { get; set; }
+
+        public RoomInfo(string name, string[] players)
+        {
+            Name = name;
+            Players = players;
+        }
     }
 }
