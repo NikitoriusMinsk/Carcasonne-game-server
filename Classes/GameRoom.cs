@@ -26,6 +26,11 @@ namespace Carcasonne_game_server.Classes
         {
             List<Tile> result = LoadJsonTiles().OrderBy(a => Random.Next()).ToList();
 
+            Tile startTile = result.First(tile => tile.Id.StartsWith("START"));
+
+            result.Remove(startTile);
+            result.Insert(0, startTile);
+
             return result;
         }
 
@@ -59,12 +64,13 @@ namespace Carcasonne_game_server.Classes
             }
         }
 
-        public void PlaceTile(string id, Point position, int rotation)
+        public void PlaceTile(string id, Point position, TileRotation rotation)
         {
             Tile tileToPlace = TilePool.First(t => t.Id == id);
-            Board.PlaceTile(tileToPlace, position, rotation);
+            Board.PlaceTile(tileToPlace.Rotate(rotation), position);
             TilePool.Remove(tileToPlace);
         }
+
     }
 
     public enum GameRoomState

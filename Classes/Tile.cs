@@ -12,7 +12,7 @@ namespace Carcasonne_game_server.Classes
         public Feature Right { get; }
         public Feature Center { get; }
 
-        public Tile(string id, Feature top, Feature bottom, Feature left, Feature right, Feature center)
+        public Tile(string id, Feature top, Feature right, Feature bottom, Feature left, Feature center)
         {
             Id = id;
             Top = top;
@@ -107,6 +107,20 @@ namespace Carcasonne_game_server.Classes
         {
             return $"{Id}\n  | {Top} |  \n---------\n{Left} | {Center} | {Right}\n---------\n  | {Bottom} |  \n";
         }
+
+        public Tile Rotate(TileRotation rotation)
+        {
+            switch (rotation)
+            {
+                case TileRotation._0deg: return this;
+                case TileRotation._90deg: return new Tile(Id, Left, Top, Right, Bottom, Center);
+                case TileRotation._180deg: return new Tile(Id, Bottom, Left, Top, Right, Center);
+                case TileRotation._270deg: return new Tile(Id, Right, Bottom, Left, Top, Center);
+
+                default:
+                    return this;
+            }
+        }
     }
 
     public enum TilePlaces
@@ -116,5 +130,13 @@ namespace Carcasonne_game_server.Classes
         Left,
         Right,
         Center
+    }
+
+    public enum TileRotation
+    {
+        _0deg = 0,
+        _90deg = 1,
+        _180deg = 2,
+        _270deg = 3
     }
 }

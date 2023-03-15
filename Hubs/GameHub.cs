@@ -19,6 +19,7 @@ namespace Carcasonne_game_server.Hubs
             LeaveRoom
             StartGame
             PlaceTile
+            GetPossiblePlacements
      */
     public class GameHub : Hub
     {
@@ -94,11 +95,19 @@ namespace Carcasonne_game_server.Hubs
         public async Task PlaceTile(string id, int row, int column, int rotation)
         {
             GameRoom room = Rooms.Where(room => room.Players.Any(player => player.Id == Context.ConnectionId)).First();
-            room.PlaceTile(id, new Point(row, column), rotation);
-            await Clients.Group(room.Name).SendAsync("TilePlaced", id, row, column);
+            room.PlaceTile(id, new Point(row, column), (TileRotation)rotation);
+            await Clients.Group(room.Name).SendAsync("TilePlaced", id, row, column, rotation);
             room.NextPlayer();
             await Clients.Client(room.Players[room.CurrentPlayer].Id).SendAsync("TileDrawn", room.TilePool[0].Id);
         }
+
+        public Point[] GetPossiblePlacements(string id, int rotation)
+        {
+            GameRoom room = Rooms.Where(room => room.Players.Any(player => player.Id == Context.ConnectionId)).First();
+            Tile tileToPlace = room.TilePool.First(t => t.Id == id).Rotate((TileRotation)rotation);
+            return room.Board.GetPossiblePlacements(tileToPlace);
+        }
+
     }
 
     public class RoomInfo
